@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEduca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="logo.jpg" height="60" width="130">
+            
+            </div>
+            <nav>
+                <ul class="nav-link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img id="menu-btn" src="menu.png" alt="image not found">
+        </div>
+     </nav>
+     <script>
+        $('#menu-btn').click(function(){
+            //ketika menu humberger di kli, fungsi di dalamnya akan menambahkan kelas active pada elemen ul yang berada di class nav .navigation
+            $('nav .navigation ul').addClass('active') 
+        });
+        $('#menu-close').click(function(){
+           
+            $('nav .navigation ul').removeClass('active') 
+        });
+     </script>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Tingkatkan Masa Depan Dengan TechEduca</h1>
+            <p>TechEduca mempersiapkan Anda untuk menghadapi tantangan karir di era digital. TechEduca menyediakan semua yang Anda butuhkan untuk sukses.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn-primary">Visit Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Awesome Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <img src="images/trust (1).png">
+                    <h3>Scholarship Facility</h3>
+                    <p>Get access to scholarships to support your studies.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/trust (3).png">
+                    <h3>Online Courses</h3>
+                    <p>Access quality learning from the comfort of your home.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/trust (2).png">
+                    <h3>Global Certification</h3>
+                    <p>Earn globally recognized certificates for your expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses Section -->
+    <section class="courses">
+        <div class="container">
+            <h2>Our Popular Courses</h2>
+            <div class="course-cards">
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    <p>$49.99</p>
+                </div>         
+            </div>
+        </div>
+    </section>
+    
+    <section class="courses">
+        <div class="container">
+            <div class="course-cards">
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="course-card">
+                    <img src="laotop.avif" alt="Course">
+                    <h3>Javascript Beginners Course</h3>
+                    <p>Update : 07/10/2024</p>
+                    <div class="rating">
+                        ★★★★★
+                        <span>(239)</span>
+                    <p>$49.99</p>
+                </div>         
+            </div>
+        </div>
+    </section>    
+
+            <!--Registration section-->
+            <section class="registration">
+                <div class="reminder">
+                    <p>get 100 online couses for free</p>
+                    <h1>registration to get it</h1>
+                    <div class="time">
+                        <div class="date">
+                            18<br>
+                            days
+                        </div>
+                        <div class="hours">
+                            23<br>
+                            minutes
+                        </div>
+                        <div class="seconds">
+                            58<br>
+                            seconds
+                        </div>
+                        <div class="seconds">
+                            20<br>
+                            seconds
+                        </div>
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="from">
+                        <h3>Create Free Account NOW!</h3>
+                        <input type="text" placeholder="Name ID" name id> <br>
+                        <input type="email" placeholder="Email ID" name id> <br>
+                        <input type="text" placeholder="Contact Number" name id> <br>
+                        <div class="btn">
+                            <a href="#" class="yellow">Sumbit Fora</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--comunity expert section-->
+            <section class="comunity-experts">
+                <h1>comunity-experts</h1>
+                <p>Replenish man have thing gathering lights yielding shall you</p>
+                <div class="expert-box">
+                    <div class="profile">
+                        <img src="images/pro1.webp" alt="image not found">
+                        <h6>Emaa Ernik</h6>
+                        <p>Phyton & Algorithms Expert</p>
+                        <div class="pro-links">
+                            <img src="pertemuan 7/facebook.png" alt="image Not Found">
+                            <img src="pertemuan 7/instagram.png" alt="image Not Found" width="50%">
+                            <img src="pertemuan 7/linkedin.png" alt="image Not Found" width="50%">
+                        </div>
+                    </div>
+                    <div class="profile2">
+                        <img src="images/pro2.webp" alt="image not found">
+                        <h6>Jason Chua</h6>
+                        <p>Data Design Expert</p>
+                        <div class="pro-links">
+                            <img src="pertemuan 7/facebook.png" alt="image Not Found">
+                            <img src="pertemuan 7/instagram.png" alt="image Not Found">
+                            <img src="pertemuan 7/linkedin.png" alt="image Not Found">
+                        </div>
+                    </div>
+                    <div class="profile3">
+                        <img src="images/pro3.webp" alt="image not found">
+                        <h6>Maalik Halper</h6>
+                        <p>Full Stack Developer</p>
+                        <div class="pro-links">
+                            <img src="pertemuan 7/facebook.png" alt="image Not Found">
+                            <img src="pertemuan 7/instagram.png" alt="image Not Found">
+                            <img src="pertemuan 7/linkedin.png" alt="image Not Found">
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <img src="images/pro4.webp" alt="image not found">
+                        <h6>Jennifer Lopez</h6>
+                        <p>Design Expert</p>
+                        <div class="pro-links">
+                            <img src="pertemuan 7/facebook.png" alt="image Not Found">
+                            <img src="pertemuan 7/instagram.png" alt="image Not Found">
+                            <img src="pertemuan 7/linkedin.png" alt="image Not Found">
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Footer -->
+    </section><div class="footer">
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed webside</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col2">
+            <h3>Power Tools</h3>
+            <li>Jobs</li>
+            <li>Marketing Service</li>
+            <li>Top Products</li>
+            <li>Manage Reputation</li>
+        </div>
+        <div class="footer-col3">
+            <h3>Power Tools</h3>
+            <li>Manage website</li>
+            <li>Manage Reputation</li>
+            <li>Top Products</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col4">
+            <h3>Guides</h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col5">
+            <h3>Newsletter</h3>
+            <p>You cant trust us. we only send promo offers</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email Address">
+                <a href="#" class="yellow">subscribe</a>
+            </div>           
+        </div>
+        <footer>
+        <p>Copyright &copy;2024 Veer sadzwan X-2</p></footer>
+        <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+        <div class="pro-links">
+            <img src="pertemuan 7/facebook.png" alt="image Not Found">
+            <img src="pertemuan 7/instagram.png" alt="image Not Found">
+            <img src="pertemuan 7/linkedin.png" alt="image Not Found">
+
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
